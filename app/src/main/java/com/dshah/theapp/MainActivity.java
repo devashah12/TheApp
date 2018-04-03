@@ -10,9 +10,6 @@ WebView webView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
-        webView = (WebView) findViewById( R.id.webView );
-        webView.getSettings().setJavaScriptEnabled( true );
-        webView.loadUrl( "file:///android_asset/build/index.html" );
 
 
     }
